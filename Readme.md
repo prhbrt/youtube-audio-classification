@@ -50,7 +50,7 @@ This is then passed to a CNN with
 
 
 |              | precision |    recall |  f1-score | support |
-| -------------|-----------|-----------|-----------|---------|
+| ------------ | --------- | --------- | --------- | ------- |
 |     RTV Oost |      0.85 |     0.64  |    0.73   |    794  |
 |    RTV Noord |      0.72 |     0.89  |    0.80   |    825  |
 |              |           |           |           |         |
@@ -66,6 +66,6 @@ This is then passed to a CNN with
 **Code**
 
  * [processing data](code/process_data) into batches which fit into memory.
- * [training](code/train_model.py)
- * [evaluation](code/evaluate.py)
+ * [training](code/train_model.py) train the model with epochs for each of the 20 training batches
+ * [evaluation](code/evaluate.py) show a classification report
 
