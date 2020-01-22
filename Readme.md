@@ -49,14 +49,14 @@ This is then passed to a CNN with
 **Results** We've reached around 77% accuracy with these performance metrics:
 
 
-             | precision |    recall |  f1-score | support
--------------|-----------|-----------|-----------|---------
-    RTV Oost |      0.85 |     0.64  |    0.73   |    794
-   RTV Noord |      0.72 |     0.89  |    0.80   |    825
-             |           |           |           |
-    accuracy |           |           |    0.77   |   1619
-   macro avg |      0.79 |     0.77  |    0.77   |   1619
-weighted avg |      0.79 |     0.77  |    0.77   |   1619
+|              | precision |    recall |  f1-score | support |
+| -------------|-----------|-----------|-----------|---------|
+|     RTV Oost |      0.85 |     0.64  |    0.73   |    794  |
+|    RTV Noord |      0.72 |     0.89  |    0.80   |    825  |
+|              |           |           |           |         |
+|     accuracy |           |           |    0.77   |   1619  |
+|    macro avg |      0.79 |     0.77  |    0.77   |   1619  |
+| weighted avg |      0.79 |     0.77  |    0.77   |   1619  |
 
 
 ## Implementation
